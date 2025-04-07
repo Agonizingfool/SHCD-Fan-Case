@@ -1,0 +1,598 @@
+{
+  "2 SW": {
+    "address": "2 SW",
+    "baseText": "“I’m sorry, Mr Pike is not here this afternoon. While he never appears in the morning, he will often appear later than usual after a… social occasion. Perhaps try later.”", 
+    "conditions": [
+      {
+        "check": "requiresLetter",
+        "letter": "G",
+        "promptIfFalse": "If you have circled the letter G read the following passage.",
+        "onSuccess": {
+          "text": "Langdale Pike waves us over to him. \"Ah, Wiggins, a delight as ever to see you, come sit here next to me\". \n\n\"Over here is perfectly fine, thank you\", Wiggins replies somewhat nervously. \n\n\"Oh, there is no need to be scared, dear Wiggins!\". \n\n\"Let us say instead that I have a profound respect for you\". \n\n\"Ah, if only every man showed such respect, Wiggins, the world would be a far better place. Take, for example, Lord Howe. His choice of entertainments... some might call it amusing, but honestly, I can't help feeling it is somewhat demeaning. I should have left... but then if I had then I wouldn't have discovered what the Lady Lewis really thought of Sir George. He really does love her, but she has such an expensive taste, poor man, who knows how he manages to keep her as she is accustomed! But enough of that, what delights are you after?\".\n\n\"Do you know anything about Lord Goodwin?\"\n\n\"The late Lord Goodwin, you mean? Oh, you do choose the most exciting topics. Harold Goodwin was a kind and generous man, well, he could afford to be. He was kind and generous to a fault... if your fault was a pretty face and pleasing manner. I heard say that he was entertaining on the night of his passing, and while he may have been asleep, it was very likely not peacefully. However, having said that, there was much to pity the poor man. His wife, to whom he was apparently devoted, died during childbirth, and his son, whom he adored, lost at sea at a very young age. Having your entire family stripped away from you can never be an easy thing, and if the comfort of a woman can help ease his eternal pain, well, who am I to comment?\"\n\n\"And yet, you somehow always do\"\n\n\"Of course! Where would be the fun in keeping such things to ones self? Now, if you will excuse me, I see the startlingly tasteless Mr Smythe over there, and I must share with him my feelings on his choice of amusements. I am not one to refrain from laughing at people, but I do feel that should be restricted to those who deserve it by their own actions, rather than just for who they are! Excuse me.\"",
+          "updates": {}
+        }
+      }
+    ]
+  },
+  "13 SW": {
+      "address": "13 SW",
+      "text": "\"Hello Inspector,\" says Wiggins, \"Have you made any breakthroughs on the series of fires?\"\n\nLestrade shakes his head. \"Nothing significant. We have determined that they are likely all arsons, but the why is a mystery to us. None of the buildings targeted share a common purpose, or owner; the only connection is their being in a similar area. Best we can tell there is a new protection racket going on, though we haven't any suspects.\"\n\n\"Do you know how the fires were set?\"\n\n\"Only speculation, really. Break in, set a long match against some oil rags, leave and watch the world burn. Makes me sick\"",
+      "followUpConditions": [
+           {
+              "check": "requiresLetter",
+              "letter": "G",
+              "promptIfFalse": "If you have circled the letter G read the following passage.",
+              "onSuccess": {
+                  "text": "\"What about Lord Goodwin?\"\n\"Who?\"\n\"Never mind\""
+               }
+          },
+          {
+              "check": "requiresLetter",
+              "letter": "R",
+              "promptIfFalse": "If you have circled the letter R read the following passage.",
+              "onSuccess": {
+                  "text": "\"Anything on the Rowney brothers?\"\n\"Rowney, you say? Let me have a look. Ah, yes, here we are. Jack Rowney, arrested on the third of August, simple larceny. Victim visited later that day and then dropped all charges.\"\n\"Could you tell us who this victim was, please?\"\n\"Sir George Lewis.\""
+              }
+          }
+      ]
+  },
+  "16 SW": {
+      "address": "16 SW",
+      "text": "We enter the Parliamentary estate and enquire where the Bridge House Estates Committee are meeting and follow the directions given. As we make our way there Wiggins tells us about the bascule bridge and how exciting the engineering is going to be. \"The ability to raise the bridge means that even the tallest ships will be able to pass under the bridge, so greater mobility is afforded to the people without restricting the docks, now...\" Wiggins lecture is stalled when he sees the looks on everyone else's face. \"Well, I find it somewhat fascinating, is all.\"\n\nSir George Lewis is leading the committee and directing them to make a decision on the exact location for the new bridge. After much discussion it seems that they are down to two locations. \"Location A is possibly the most convenient for the public, but will involve some claiming of the royal estate at the Tower of London, along with the compulsory purchase of a small number of properties south of the river.\" Sir Lewis expounds, \"Location B will preserve the historic tower, and such properties as are affected by the construction on both sides of the river can be compulsorily purchased at the previously agreed rate, which is market rate as set on April 1885 plus twenty percent. All in favour of site A\"\n\n\"Aye\" several of the committee raise their hands as they say this. \"All in favour of site B\" Sir Lewis raises his hand, but is in the minority.\n\n\"Very well, let it be shown in the record that the new bridge shall cross the Thames at the Tower of London, with construction to begin as soon as practicable.\" Wiggins leads us out positively giddy at the idea of watching the new bridge be built. \"Tower bridge, that's what they should name it...\""
+  },
+  "22 SW": {
+      "address": "22 SW",
+      "text": "\"Oh, yes, Waggins, isn't it? I expect you are here about our serial arsonist. I can't say we have very much of anything to help. We found the same cigarettes near the fires in Lower Thames, and Tooley street, but they were inexpensive of the sort you can pick up at any tobacconists, and impossible to identify. There isn't even anything to suggest that they were left there by the arsonist themselves, but we really are clutching at straws here.\"",
+      "followUpConditions": [
+          {
+            "check": "requiresLetter",
+            "letter": "T",
+            "promptIfFalse": "If you have circled the letter T read the following passage.",
+            "onSuccess": {
+              "text": "\"Oh, what's that you have here? Interesting little titbits for another investigation? Well, this seems to be a pawn slip. Can't say from where just by this, but the very fact that the pawnbroker has gone to the effort of creating this indicates that whatever item has been pawned is of significant value. Perhaps mother's finest pearl necklace. Of course, the only way to be sure is to match it to the other half, and that would be kept by the pawnbroker. As for this... mmm, smell that. This brings back memories, it certainly does. Back at school we used to burn cork to blacken our faces and sneak out of the dorm. You could be caught easily if you looked in a window and the light reflected off your face. Then there would be screams, and a chase... ah, the good old days of Alma Mater. Oh, the cork. Well, I'm sorry to say it is just that; cork. No identifying marks, nothing particularly irregular. I can tell you that if you put it in water it will float, but that is about it. Sorry.\"\n\nWe leave Murray in a kind of daydream; clearly he has been transported back to the days of his youth and whatever illicit activities he enjoyed at that time."
+            }
+          }
+      ]
+  },
+  "31 SW": {
+      "address": "31 SW",
+      "text": "We knock on the door of a substantial residence. A broad-shouldered gentleman in a fine suit greets us at the door.\n\n\"Mr. Leith?\"\n\n\"Yes?\"\n\n\"We just wanted to congratulate you on the birth of your son\".\n\n\"Thank you\" replies a confused Mr. Leith."
+  },
+  "35 SW": {
+      "address": "35 SW",
+      "text": "The palace guard refuse you entry."
+  },
+  "55 SW": {
+      "address": "55 SW",
+      "text": "Wiggins sits down opposite a blindfolded Mr. Blackburne. Four moves later and he is defeated.\n\n\"Perhaps I should have learned the game first.\" Says an abashed Wiggins."
+  },
+  "60 SW": {
+      "address": "60 SW",
+      "baseText": "",
+       "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "T",
+              "promptIfFalse": "If you have circled the letter T read the following passage.",
+              "onSuccess": {
+                  "text": "We approach the residence of Sir Clayton Partridge, and make our way round to the servants' entrance. After some enquiries we meet the scullery maid, Molly.\n\n\"Yes, I was at the Marylebone Orphanage. Madame got me this position, and I would thank you kindly for not jeopardising my position.\"\n\nWe can tell that this must be one of the Orphanages best students and she has learned well from her mistress.\n\n\"Were there any orphans who may not have looked as kindly as you on the Orphanage, and perhaps even have ill wishes towards it, or Madame herself?\"\n\n\"Perish the thought! No, Madame was very good to us. Strict, but fair. Yes, there were some that didn't take to her teachings and left to try and find work themselves, but more likely just ended up on the street. We used to dream of finding out we were the long-lost daughter of a duke, but the sensible ones among us realised how silly that dream was, set to work and earned a good position like me. Those who didn't usually ended up on the street or at the workhouse proper.\"\n\n\"So no name comes to mind that might, say, try and set fire to the orphanage?\"\n\n\"Sir! Even the thought of that is... I'm sorry I have to get back to my duties\""
+               }
+          }
+      ]
+  },
+   "87 SW": {
+      "address": "87 SW",
+      "text": "We come to a halt, breathing hard, hands on our knees. Alfie looks like he might vomit. Looking round, we see no evidence of disruption. Wiggins calls out to ask about the speeding carriage.\n\n\"If you are after a carriage, there is normally a stand at St. James square.\"\n\nIt looks like we have come the wrong way."
+  },
+   "88 SW": {
+      "address": "88 SW",
+      "text": "\"Father O'Connell is at the mission\" a rather austere woman tells us. \n\n\"We have just come from there\" replies Wiggins.\n\n\"Then he is most likely at church.\"\n\n\"Which...\" Wiggins asks the closing door."
+  },
+  "3 NW": {
+      "address": "3 NW",
+      "text": "We knock on the door of Mr. Epsom's town house only to be greeted by a formidably large woman wearing an apron. When we ask if the master of the house is in, she sniffs and tells us to try his offices."
+  },
+  "7 NW": {
+      "address": "7 NW",
+      "baseText": "",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "T",
+              "promptIfFalse": "If you have circled the letter T read the following passage.",
+              "onSuccess": {
+                  "text": "William Brothers pawnbrokers is a startling place. The walls are lined with shelves overflowing with interesting objects of unknown purpose that nevertheless call out to be picked up and examined, stuffed animal heads, and musical instruments. Racks of coats cover the floor, boxes of hats, scarves, and gloves fight for space with furniture of varying quality, crates of sporting equipment, and, unusually, a stuffed deer. Fighting our way to the counter on which trays of silver and gold rings, necklaces, and broaches sit, we present the partial slip we have in our possession. \n\n\"what's this?\" The bespectacled man behind the counter asks.\n\n\"We hoped you would be able to tell us.\" Replies Wiggins.\n\n\"Well, it looks like one of my slips that has been ripped to pieces. I can tell you now, I am not honouring that. Bring me the whole thing and an explanation on why you shredded it and I might consider it, but that...? No chance.\"\n\n\"Might you tell us which item this refers to?\"\n\n\"No, I might not! I ain't about to tell you what it is so you can go make up a fresh slip and try and get cheap what I paid good money for. Either the correct owner comes to claim what is his and pays me the money what is mine, or you keep standing there wasting my time and I call for a constable. Now clear off.\"\n\n\"Could you even tell us how much...\"\n\n\"No! Clear off I tell you.\"\n\n\"Thank you for your help\", Wiggins says, sheepishly.\n\n\"What help? Bugger off!\""
+              }
+          }
+      ]
+  },
+  "20 NW": {
+      "address": "20 NW",
+      "text": "We step towards the Pavilion Music Hall, but are confronted by a closed door and a poster on the door that reads \"closed for refurbishment\"."
+  },
+"22 NW": {
+      "address": "22 NW",
+      "conditions": [
+        {
+          "check": "requiresLetter",
+          "letter": "C",
+          "promptIfFalse": "If you have NOT circled the letter C read the following passage.\n\nThe Public entrance of St James Hall is closed so we make our way round to the stage door. Wiggin’s acting experience gets us past the guard and into the warren that makes up the rear of all theatres. As we approach the manager’s office, we hear raised voices.\n\n“Lawrence, this just isn’t on. Our Mr. Tambo missed the entirety of the cakewalk, and barely made it on stage for the “cats’ duet”. How would that have been if I had hiss at myself? We had to entirely cut “Mammy’s Carolina Twins” because he forgot to even bring that ridiculously ostentatious banjo onstage. I tell you, Lawrence, I have had enough! I warned him, he was on his last chance, and he has squandered it, no, not just squandered it, crumpled it into a ball and thrown it on the fire! I have been speaking with Harry Kenyon, good man, excellent pedigree; worked under Poole and Zanto, excellent acrobat. Get him in as my opposite endsman or I walk, you understand me? I walk!”\n\nThe door opens and a tall, thin man almost runs into us.\n\n“Excuse me,” says Wiggins, and then, suddenly recognising the man, “are you Arthur Gallimore, the actor from Sheffield?”\n\n“I am, gentlemen, but I am sorry I have no time for autographs.”\n\nThe guard, realising we are not there in a professional capacity, ushers us out of the door.",
+          "onSuccess": {
+            "text": "If you have circled the letter C read the following passage.\n\nWe arrive at St. James Hall very out of breath. “You’ve missed half the show, but I can’t let you in without a ticket.” Grimacing, Wiggins pays for enough tickets for us all and we slip in to the back of the hall to watch the Moore and Burgess Minstrel Show. The troupe are all lined up on the stage, surrounding a dignified looking gentleman in the middle with two figures, one tall and thin, the other comedically fat on either end who exchange jokes between the songs. “I know him,” confides Wiggins, pointing to the thin endman, “It’s Arthur Gallimore, a Sheffield lad, so he is”. Mr. Bones seems to take a savage delight in needling Mr. Tambo at the other end with some very direct comments, but this appears to be a regular part of the show as the audience are hooting with laughter. Even though we started the afternoon looking intently at the many overly made-up faces, attempting to identify who may have just raced a carriage across North London, we soon find ourselves caught up in the songs, and find ourselves joining in the chorus of “Sister Mary Jane’s top note” with gusto. Before long we find ourselves joining the standing ovation at the end of the show. Realising we may be about to miss an opportunity, Wiggins ushers us out of the hall and round to the stage door where we beg entry, citing our huge admiration of the troupe, and Arthur Gallimore in particular. We see Arthur, a surprisingly young man for so prominent a role, storming off the stage shouting at someone who, from the fact that his face is not coated in black, we presume is the manager. \n\n“Lawrence, this just isn’t on. Our Mr. Tambo missed the entirety of the cakewalk, and barely made it on stage for the “cats’ duet”. How would that have been if I had hiss at myself? We had to entirely cut “Mammy’s Carolina Twins” because he forgot to even bring that ridiculously ostentatious banjo of his onstage. I tell you, Lawrence, I have had enough! And look at this!” He exclaims pointing at what looks like a large pile of clothes abandoned in the corridor. “His suit, just carelessly discarded on the ground. Does he not know how much these things cost? You can’t simply get away with a cushion up your shirt these days! I warned him, he was on his last chance and he has squandered it, no, not just squandered it, crumpled it into a ball and thrown it on the floor, just like that ridiculous outfit there! I have been speaking with Harry Kenyon, good man, excellent pedigree; worked under Poole and Zanto, excellent acrobat. Get him in as my opposite endsman or I walk, you understand me? I walk!\n\nSorry, I don’t have time for autographs, gentlemen.” This last remark was directed at us, and we are swiftly ushered out the stage door.",
+            "updates": {
+              "circlesLetter": "F"
+            }
+          }
+        }
+      ]
+    },
+  "25 NW": {
+      "address": "25 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "The doorman at the Cavendish club smiles at our dishevelled appearance as we run up to him.\n\n\"Sorry, lads, you aint getting in looking like that. You look like the devil himself is after you.\"\n\n\"We don't want in,\" huffs an out of breath Wiggins \"did you see a carriage rush by?\"\n\n\"That I did, lads. It raced by not long past. Not having much to do I watched it on its way. It veered towards Piccadilly Circus then screeched to a halt outside St. James Hall. Someone must be terribly keen not to miss the show\"."
+              }
+          }
+      ]
+  },
+  "34 NW": {
+      "address": "34 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "Running towards Cavendish square we call out, asking where the speeding carriage went.\n\n\"Straight cross the square, took a right at the YMCA\" comes a helpful response"
+              }
+          }
+      ]
+  },
+   "35 NW": {
+      "address": "35 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "\"Did a speeding carriage come past just now?\" Wiggins asks an old man sitting outside the YMCA idly whittling a piece of wood.\n\n\"What's in it for me?\"\n\n\"A farthing\" comes the grudging reply\n\n\"Went that way\" the old man says pointing grudgingly south\n\n\"Did it turn at Oxford Circus?\"\n\n\"My farthing don't see that far\" he says, and spits."
+              }
+          }
+      ]
+  },
+   "36 NW": {
+      "address": "36 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "The doorman at the Langham hotel blinks slowly at us and shakes his head. We try to press him for an answer, but he waves aside to make way for a young, well-dressed couple approaching the hotel. We decide not to push our luck, and look elsewhere."
+              }
+          }
+      ]
+  },
+  "38 NW": {
+      "address": "38 NW",
+      "text": "A haze of smoke seems to have settled over London as we run towards the crossroads on Blanford Street, where Jasper calls out to us. \"Ere, squire, you're in a right royal rush. You here for the paper?\"\n\n\"No, Jasper, not today\" pants Wiggins,\" but did you see a carriage race past just now?\"\n\n\"I did! It hared off down Thayer Street, was almost on two wheels the lick it was going at!\"\n\n\"Thank you\" Wiggins calls as we set off down Thayer Street",
+      "updates": {
+          "circlesLetter": "C"
+      }
+  },
+  "39 NW": {
+      "address": "39 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "Two men carrying a large pane of glass between them shout at us as we race towards them. \"As if dodging a carriage isn't enough, now we have a stampede\", one remarks to the other.\n\n\"Which way did they go?\" Wiggins asks, but gets only a nod of the head in a southerly direction."
+               }
+          }
+      ]
+  },
+"42 NW": {
+      "address": "42 NW",
+      "text": "We bundle into 221B Baker Street and find Holmes writing a telegram. You can choose to receive hints from Holmes based on the following circled letters; F, T, G. Each hint taken counts as a lead.",
+      "actions": [
+          { "id": "hint_f", "text": "Get Hint (Requires F)" },
+          { "id": "hint_t", "text": "Get Hint (Requires T)" },
+          { "id": "hint_g", "text": "Get Hint (Requires G)" }
+      ]
+  },
+"44 NW": {
+      "address": "44 NW",
+      "conditions": [
+          {
+            "check": "requiresLetter",
+            "letter": "C",
+            "promptIfFalse": "If you have circled the letter C read the following passage.",
+            "onSuccess": {
+              "text": "We make our way North of 221B Baker Street to find a crowd gathered to watch a large fire which is in the process of consuming a small building attached to the Marylebone Workhouse across the road. The Metropolitan Fire Brigade is in the process of attempting to quench the flames, but with limited success. Captain Shaw himself is leading the efforts, and cries of \"his brigade with cold cascade\" can be heard from some ladies in the crowd. We push our way through the crowd towards the police officer trying to keep the press of people a safe distance away. \n\n\"Stand back, I tell you! If the roof were to collapse who knows how... Oh, Wiggins isn't it? Sherlock Holmes lackey.\"\n\n\"We prefer the term associates, but yes\", replies Wiggins. \"Can we lend a hand?\" Without waiting for a reply, he directs Ozzie, Elliot, and Alfie to keep people back while he asks questions. \"We heard a police whistle earlier, was that from you?\"\n\n\"Yes, it is another Obadiah!\"\n\n\"A what?\"\n\n\"Obadiah... fire!\"\n\n\"Well, clearly\" Wiggins replies, eyeing the flames protruding from the windows.\n\n\"Yes, but this time we have a suspect!\"\n\n\"Oh, have you arrested someone?\"\n\n\"Well, no, but I almost caught him.\"\n\n\"Could you tell us everything, please, in detail, if you don't mind.\"\n\nThe officer looks round, sees the crowd is being kept back efficiently and sighs. \"Fine. I was patrolling along Marylebone Road, and as I turned into York Place, I heard a lady's scream coming from that building. Loud and long it was, proper scared. I hurried over and just as I reached the door it burst open knocking me onto my Aris. I reached up to grab him, but only caught his weasel. Can't have been very good 'cos the pocket ripped aff in my hand, ere.\"\n\nHe hands us the remains of a brown coat pocket, a burnt cork, and a piece of paper.\n\n(Image: Pawn Slip Fragment)\n\n\"What about the woman?\"\n\n\"Oh, she's over there\", he says pointing to a dishevelled young woman sitting in the road.\n\nWe approach her, and gently introduce ourselves.\n\n\"My name is Wiggins, the officer asked us to take care of you.\" Wiggins punctuates his lie with a wave to the policeman, who waves back, giving credence to our misdirection. \"What's your name, miss?\"\n\n\"Rose, sir\" She is younger than we had originally thought now we are close enough to see past the soot.\n\n\"And what do you do, if you don't mind me asking?\".\n\n\"'m the scullery maid, sir. Well, kinda. Ma'am gives me a penny to clean up a bit, you know.\"\n\n\"Can you tell us the purpose of the building that is on fire?\"\n\n\"'s the orphanage, sir. Part of the workhouse. Ma'am runs it for the masters. She's ever so good. Strict, mind, but if you do well, she can often place you in a house. Very proud of that. We all is. Are. She's got lists and lists of all the kids she's found homes for. Keeps an eye on 'em, even when they are all growed up. Grown, I mean, sorry sir. She told us last week that 'arry just got made underbutler to the Partridge family. She even got a maid in the palace, so she tells it. I'd 'oped that if I did good for her, well, sorry, she might be able to place me, too. But if it is all burned down...\" She descends into sobs.\n\n\"There, there. I am sure it will be alright in the end\" Wiggins consoles her. \"Can you explain what happened, please? In as much detail as you can\"\n\n(Image: Pawn Slip Fragment)\n\n\"Yes, sir. If'n you say so, sir. Well, I was emptying the rat traps in the basement. I 'ates doing that, but ma'am insists, so she does. Anyways, I was doing that 'n I heard a crash from upstairs. Scared me something, it did. So, I crept back upstairs cautious like, and saw this man emptying out Ma'am's drawers. I couldn't help myself, I screamed. Anyways, he trips over himself, shouts at me, then runs out the door. When I got the courage to come back up, the whole place was on fire. I would still be there if Captain Shaw hadn't pulled me out himself!\"\n\n\"Did all the children get out?\"\n\n\"Oh, Ma'am took them all to Madame Tussauds, they're not here, you'd have to ask her if she left any behind!\"\n\n\"Well, that's one thing to be glad about, perhaps we should check\".",
+              "updates": {
+                "foundPawnSlipFragment": true,
+                "foundBurntCork": true
+              }
+              }
+          },
+          {
+               "check": null, 
+               "onSuccess": {
+                    "text": null, 
+                    "updates": {
+                         "circlesLetter": "T" 
+                    }
+               }
+          }
+      ]
+  },
+  "45 NW": {
+      "address": "45 NW",
+      "text": "Proceed directly to 44NW. 45NW does not count as a lead."
+  },
+  "46 NW": {
+      "address": "46 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "T",
+              "promptIfFalse": "If you have circled the letter T read the following passage.",
+              "onSuccess": {
+                  "text": "We pay to enter and swiftly move round the museum, barely looking at the waxwork faces. Finally we find a group of children observing the figure of Madame Tussaud herself. A stern woman whose iron-grey hair is held in a tight bun is lecturing them. \n\n\"Excuse me,\", interrupts Wiggins, \"are you from the orphanage attached to the Marylebone Workhouse?\"\n\n\"One does not interrupt an elder when they are talking, especially when they are teaching others, it is both impolite and sets a poor example for my charges; if you would speak with me, I would have you wait for the appropriate juncture\" she sniffs. \"Our time here is limited, doubly so due to the antics of James, whose idea of appropriate behaviour extends to throwing Ronald's shoes onto the roof causing us to lose more than an hour in searching for them, and no you have not heard the last of this, James, and are lucky I did not leave you behind. However, it is not often that such an opportunity arises, and it does the children good to know the faces of some of the most prominent members of history and current society. Now, where was I? Oh dear, I have lost the thread of my thoughts. Very well, gentlemen, how may I assist you?\"\n\n\"I am sorry to have interrupted,\" demurs a somewhat intimidated Wiggins,\" we simply wished to know if you are of the orphanage?\"\n\n\"Indeed, we are the orphanage, but we are here perfectly legitimately. While my budget does not normally extend to taking the entirety of my charges on educational excursions, we are fortunate to receive occasional donations from philanthropists and even former residents who have worked hard, risen through the ranks, and chosen to repay in part for everything that was done for them; something it would behove you to remember James, should I ever find a family foolish enough to take you into service.\"\n\n\"And was it a former...eh, resident that has funded this visit?\"\n\n\"On this occasion, no. We were funded by a very generous donation of tickets from Lord Goodwin, not a gentleman I have had the pleasure of conversing with personally, but this may well pave the way to allowing me to place one of my charges with them if we can maintain relations, and it would be a poor return of his generosity if we were to squander this educational experience, so if you will please excuse us, good day.\n\n\"But we need to..\"\n\n\"I said good day, sir.\"",
+                  "updates": {
+                      "circlesLetter": "G"
+                  }
+              }
+          }
+      ]
+  },
+  "50 NW": {
+      "address": "50 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "There is no sign of the passage of a carriage here, and nobody has seen one. We have clearly come the wrong way."
+              }
+          }
+      ]
+  },
+  "53 NW": {
+      "address": "53 NW",
+      "text": "Rushing out the door of 221B Baker Street and to the corner of Blanford street, we almost run over a young girl playing hopscotch.\n\n\"Did you see a carriage, young miss?\"\n\nShe nods, and points east along Blanford Street.",
+      "updates": {
+          "circlesLetter": "C"
+      }
+  },
+  "63 NW": {
+      "address": "63 NW",
+      "text": "We are met at the door of Sir George Lewis' town house by his wife.\n\n\"Sir George is not here.\"\n\n\"May we ask where he is?\"\n\n\"You may ask, but I can't say I know, or very much care. Probably at Parliament or something equally dull.\"\n\n\"Thank you.\""
+  },
+  "68 NW": {
+      "address": "68 NW",
+      "text": "It transpires that the address we are sent to hosts the offices of William Morris, Solicitor.\n\nUpon asking for an appointment, we are told that he is very busy, and are instructed to wait. After half an hour we are about to call it a day when Mr Morris exits his office to hand a folder of documents to the secretary \"Mary, file this with the rest of the Regis Holdings documents, please. Who are these gentlemen?\"\n\n\"They have come unannounced and asked to see you, sir.\"\n\nAs if we were not sitting right there, he replies, \"Well, tell them I am too busy to see them, if they insist make an appointment for next week sometime after Thursday.\"\n\n\"Yes sir\", and he ensconces himself once more in his office.\n\n\"You heard him, you won't be seeing him today. Can I make you an appointment for next week?\"\n\nWiggins whispers \"Distract her\" so we surround Mary as best we can, arguing over when we can see Mr. Morris, gesticulating wildly, while Wiggins tries to take a glance at the soon to be filed folder. Once we are outside, Wiggins tells us what he has seen. \"I didn't get much, but I spotted a partial address; '63 Clar' was all I saw\"."
+  },
+  "69 NW": {
+      "address": "69 NW",
+      "text": "We approach the offices of Mr. Rory Epsoms, but are told that he has just received an urgent telegram and has had to leave. If we wish to see him, we should return at half past six."
+  },
+  "72 NW": {
+      "address": "72 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                   "text": "There is no sign of the passage of a carriage here, and nobody has seen one. We have clearly come the wrong way."
+              }
+          }
+      ]
+  },
+
+"73 NW": {
+  "address": "73 NW",
+  "baseText": "<p id='prompt-73-c'>If you have circled the letter C read the following passage.</p><p id='prompt-73-tg'>If you have the letter T AND G circled, read the following passage.</p><p id='prompt-73-g_not_t'>If you have circled the letter G but NOT the letter T read the following passage.</p>",
+  "conditions": [
+    {
+      "check": "requiresLetter",
+      "letter": "C",
+      "promptIfFalse": null,
+      "onSuccess": {
+        "text": "<hr><div id='passage-73-c'>\n\nThe Western side of Wigmore Street is blocked by an apple cart that has been toppled. The cart's owner is talking to a policeman and gesticulating wildly in an easterly direction. We take the hint and head in the direction he is pointing.</div>"
+      }
+    },
+    {
+      "check": "requiresLetter",
+      "letter": "G",
+      "promptIfFalse": null,
+      "onSuccess": {
+        "followUpConditions": [
+          {
+            "check": "requiresLetter",
+            "letter": "T",
+            "promptIfFalse": "<hr><div id='passage-73-g_not_t'>\n\nWe are greeted at the door by an elderly butler who takes one look at us and informs us that service people should make themselves known at the servants entrance, and closes the door before we can object. Making our way round to the servants’ entrance we notice that the windows are all shuttered. After a brief pause the same butler greets us at the door, sniffs, and declares that as the master is not in our services are not required and moves to close the door again. Prepared this time, Wiggins stops him with a carefully placed boot. “We are investigating the fires that have occurred across the city, and our investigation has led us to Lord Goodwin. I wonder can you tell us about him?” “Lord Harold Goodwin passed away a week ago. Any suggestion that he was involved in such an illegal occupation is slanderous, and I will have you before the magistrates should you continue to besmirch his good name.” “We have been led to believe that he hired a carriage this afternoon.” “Impossible! Gentlemen, you have upset me quite enough, I would like you to leave.” Disappointed we make our way out of the house escorted by an eagle-eyed butler determined that we not walk off with the family silver. He slams the door behind us. Before we can walk five paces a young man, perhaps in his early teenage years stops us. “You ain’t upsetting old Eddie, are ye? He hasn’t been doing well since Lord Goodwin passed. Is a bit lost, if you know what I mean, and small wonder, given the circumstances.” “Circumstances?” “Well, yeah. He has no idea if he will stall have a home and a job after the will is read, none of us do.” “Are you a member of the household staff?” “Yes, well no. I was the boot boy, but got too old for the job. Edward may be a bit stuck up, but he knows what is what and made sure I didn’t starve when I finished up. I’m kinda returning the favour, bringing him his dinner, but I’m running late. Stayed around to watch the fire. Sad to see the old place burn down. “You were involved with the orphanage?” “Well, I wouldn’t say involved, but I did spend some time there. It was a good place, as these places go. I mean, the harridan that runs the place could at least try and be a comfort, but, well, she hammers in enough manners to give us a chance of getting work, which is more than most orphanages do. I mean, some of us even keep in touch. Meet up once in a while, have a drink, share tales of our triumphs and our tragedies. Sally even offered to put a good word in for me at her work. Speaking of work, I need to get the old man fed; he gets mighty cranky when he is hungry.” “Yes, we know…”</div>",
+            "onSuccess": {
+              "text": "<hr><div id='passage-73-tg'>\n\nWe are greeted at the door by an elderly butler who takes one look at us and informs us that service people should make themselves known at the servants entrance, and closes the door before we can object. Making our way round to the servants’ entrance we notice that the windows are all shuttered. After a brief pause the same butler greets us at the door, sniffs, and declares that as the master is not in our services are not required and moves to close the door again. Prepared this time, Wiggins stops him with a carefully placed boot. “We are investigating the fires that have occurred across the city, and our investigation has led us to Lord Goodwin. I wonder can you tell us about him?” “Lord Harold Goodwin passed away a week ago. Any suggestion that he was involved in such an illegal occupation is slanderous, and I will have you before the magistrates should you continue to besmirch his good name.” “We had been led to believe that Lord Goodwin paid for an educational excursion for an entire orphanage, and I was wondering whether you could expand upon why he did this?” “The late master was not above acts of charity such as you describe. I believe he treated it as a matter of Noblesse Oblige.” “And when was the last time he performed such a generous act?” “Well, he did these things all the time. He was a good and generous master.” “But did he give this donation, specifically.” “I was not the master of my master’s coin, but I would not be surprised that one of his last acts would be to arrange such a treat for poor, unfortunate children. In fact, I am sure he would have done exactly that. Yes, I am almost certain he must have.” “Do you happen to have any receipts or documents…” “I am not about to go riffling through my master’s delicate documents. Besides, the solicitor has taken care of them until such time as the will is read.” “Do you happen to have the name of the solicitor?” “No. That is to say, it is not my business to be handing out details of my master’s business. I think you should take your leave.” Disappointed we make our way out of the house escorted by an eagle-eyed butler determined that we not walk off with the family silver. He slams the door behind us. Before we can walk five paces a young man, perhaps in his early teenage years stops us. “You ain’t upsetting old Eddie, are ye? He hasn’t been doing well since Lord Goodwin passed. Is a bit lost, if you know what I mean, and small wonder, given the circumstances.” “Circumstances?” “Well, yeah. He has no idea if he will stall have a home and a job after the will is read, none of us do.” “Are you a member of the household staff?” “Yes, well no. I was the boot boy, but got too old for the job. Edward may be a bit stuck up, but he knows what is what and made sure I didn’t starve when I finished up. I’m kinda returning the favour, bringing him his dinner, but I’m running late. Stayed around to watch the fire. Sad to see the old place burn down. “You were involved with the orphanage?” “Well, I wouldn’t say involved, but I did spend some time there. It was a good place, as these places go. I mean, the harridan that runs the place could at least try and be a comfort, but, well, she hammers in enough manners to give us a chance of getting work, which is more than most orphanages do. I mean, some of us even keep in touch. Meet up once in a while, have a drink, share tales of our triumphs and our tragedies. Sally even offered to put a good word in for me at her work. Speaking of work, I need to get the old man fed; he gets mighty cranky when he is hungry.” “Yes, we know…”</div>"
+            }
+          }
+        ]
+      }
+    }
+  ]
+},
+
+
+  "77 NW": {
+      "address": "77 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "\"have you... carriage... fast...\" is all Wiggins can get out. A couple who were walking arm in arm down the street point us in the direction of Cavendish Square."
+               }
+          }
+      ]
+  },
+  "80 NW": {
+      "address": "80 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "Oxford circus is busy as usual and it doesn't take us long to find someone willing to point the way. \"Oh yeah, a carriage came haring through here not five minutes ago. Nearly ran over a dog. Would've liked to see that\" a raggedly dressed boy tells us with glee.\n\n\"But which way did it go?\"\n\n\"Down Regent Street, guvner\""
+              }
+          }
+      ]
+  },
+  "81 NW": {
+      "address": "81 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "Oxford circus is busy as usual and it doesn't take us long to find someone willing to point the way. \"Oh yeah, a carriage came haring through here not five minutes ago. Nearly ran over a dog. Would've liked to see that\" a raggedly dressed boy tells us with glee.\n\n\"But which way did it go?\"\n\n\"Down Regent Street, guvner.\""
+              }
+          }
+      ]
+  },
+  "82 NW": {
+      "address": "82 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "Oxford circus is busy as usual and it doesn't take us long to find someone willing to point the way. \"Oh yeah, a carriage came haring through here not five minutes ago. Nearly ran over a dog. Would've liked to see that\" a raggedly dressed boy tells us with glee.\n\n\"But which way did it go?\"\n\n\"Down Regent Street, guvner\""
+              }
+          }
+      ]
+  },
+   "83 NW": {
+      "address": "83 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "Oxford circus is busy as usual and it doesn't take us long to find someone willing to point the way. \"Oh yeah, a carriage came haring through here not five minutes ago. Nearly ran over a dog. Would've liked to see that\" a raggedly dressed boy tells us with glee.\n\n\"But which way did it go?\"\n\n\"Down Regent Street, guvner\""
+              }
+          }
+      ]
+  },
+   "85 NW": {
+      "address": "85 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "We reach the corner of Great Portland Street. There is no sign of the passage of a carriage here, and nobody has seen one. We have clearly come the wrong way."
+               }
+          }
+      ]
+  },
+  "86 NW": {
+      "address": "86 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                   "text": "We reach the corner of Great Portland Street. There is no sign of the passage of a carriage here, and nobody has seen one. We have clearly come the wrong way."
+              }
+          }
+      ]
+  },
+   "87 NW": {
+      "address": "87 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "We reach the corner of Great Portland Street. There is no sign of the passage of a carriage here, and nobody has seen one. We have clearly come the wrong way."
+              }
+          }
+      ]
+  },
+  "90 NW": {
+      "address": "90 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "C",
+              "promptIfFalse": "If you have circled the letter C read the following passage.",
+              "onSuccess": {
+                  "text": "As we run along Regent Street, we see the carriage we have been chasing stationary outside St. James Hall. Putting on a burst of speed we are dismayed to see the driver shake the reins and the carriage set off at a more sedate pace, the horse's flanks still visibly sweating."
+              }
+          }
+      ]
+  },
+  "97 NW": {
+      "address": "97 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "T",
+              "promptIfFalse": "If you have circled the letter T read the following passage.",
+              "onSuccess": {
+                  "text": "We sprint round Regents Park, but can see no sign of the children."
+              }
+          }
+      ]
+  },
+  "98 NW": {
+      "address": "98 NW",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "T",
+              "promptIfFalse": "If you have circled the letter T read the following passage.",
+              "onSuccess": {
+                   "text": "Looking round the botanic gardens we see some excellent specimens of Dahlias, Pinks, and lilies, but no sign of any group of children. We ask a gardener who is working round a beautiful selection of Alstroemeria, but he tells us there hasn't been any party of children in the garden today."
+               }
+          }
+      ]
+  },
+"5 WC": {
+  "address": "5 WC",
+  "baseText": "We enquire about carriages hired to the north of Baker Street around the time we saw it speed past us. A brawny looking man that positively reeks of horses consults his notes.\n“Hm, I think Jenkins had arranged to pick up a passenger in York Place around then, but he isn’t back yet.” Anything else I can help you with?\n“No, thank you.”",
+  "conditions": [
+    {
+      "check": "requiresLetter",
+      "letter": "F",
+      "promptIfFalse": "If you have circled the letter F read the following passage.",
+      "onSuccess": {
+        "text": "We enquire about carriages hired to the north of Baker Street around the time we saw it speed past us. A brawny looking man that positively reeks of horses consults his notes.\n“Ah, yes, Jenkins. Fool boy brought in his carriage with the horse looking like it had just run the derby. He won’t be taking any more fares this evening, rather he will be making sure he didn’t kill the poor animal!”\n“Do you mind if we have a word with him?”\n“No, knock yourself out. And him, if that horse is knackered.”\nHe directs us towards the stables where, after a brief search we find Jenkins sourly tending his horse.\n“Jenkins?” Wiggins asks.\n“Who’s asking?”\n“We work for Sherlock Holmes, and have a few questions about an incident with a speeding carriage earlier.”\n“I’m not in any more trouble, am I? Only me mam will kill us if’n I lose this job.”\n“No, no; no trouble” Wiggins reassures. “Are we right in assuming that you were driving the coach that sped along Baker Street earlier?”\n“Yes, sir. I picked up my passenger as agreed, well, kinda, then took him to St. James Hall, as requested. “\n“What do you mean by kinda?”\n“Well’n he was late. Terrible late. I was supposed to pick him up at quarter past, but he didn’t get there until almost the hour! I would’ve left, like we are supposed to for someone who don’t show, but, well, given the name I thought I might chance it in case he came through with a tip. Plus, you don’t want to upset a peer, that can get you in a load of trouble.”\n“A peer, you say?”\n“Yes, sir. Lord… oh, what was it now? Em… Goodwill? Something like that. No, Goodwin, Lord Goodwin. He was in a terrible rush, so he was. He said he needed to be at St James fifteen minutes ago, and he would give me ten whole pounds if I got him there on time, but take one pound away for every minute we was late. Didn’t make it in time, but he still gives me six shillings, although if’n it’s all right with you would you mind not telling Bradley out front, he’d likely have it off me.”\n“Could you describe Lord Goodwin for us, please?”\n“Sure could; young man, blond hair, quite curly. Clean shaven, but a bit of a dirty face if you ask me. Not that tall, and pretty slim. Posh accent, but his coat wasn’t up to much, brown with a great tear on it, like. Em… think that’s about it, really. “\n“That is very observant of you, thank you, you have been a great help. And we will remember not to tell Bradley.\n“Thank you, sir, I appreciate it. Now I really must rub Nelly down again.”"
+      }
+    }
+  ]
+},
+"17 WC": {
+  "address": "17 WC",
+  "text": "We ask Disraeli O'Brian about records of births and entries to orphanages, but we are informed that the national records do not hold such information, rather they would be found in the individual orphanage in question. \"Which orphanage are you particularly interested in?\"\n\n\"The Marylebone Workhouse orphanage, but we are unable to access their records as it burned down this afternoon!\"\n\n\"Oh my, that is very distressing; I'm sorry I can't help you.\"",
+  "followUpConditions": [
+    {
+      "check": "requiresLetter",
+      "letter": "G",
+      "promptIfFalse": "If you have circled the letter G read the following passage.",
+      "onSuccess": {
+        "text": "We further ask about Lord Harold Goodwin. \"I should certainly be able to help you there, give me one moment.\" He disappears into his stacks to return a moment later. \"Here we are, Harold Goodwin, Lord, born 7th September 1823, only son of Gerald Goodwin, 1801-1871, married to Elizabeth Goodwin, nee Morley, 1838-1865, father of Hildebrand Goodwin, 1865-1871?\"\n\n\"Question mark?\"\n\n\"Yes, a terrible thing having no official record of death, but it can happen on occasion when one is simply presumed dead. Interestingly enough, someone else had been asking about these records. A young man requested them last week. Popular fellow, I guess.\""
+      }
+    },
+    {
+      "check": "requiresLetter",
+      "letter": "E",
+      "promptIfFalse": "If you have circled the letter E read the following passage.",
+      "onSuccess": {
+        "text": "\"What about Eloise Regis Holdings?\"\n\n\"Hmm, I can't seem to find that record, is the name correct?\"\n\n\"Oh, yes, RGW Eloise Regis Holdings, sorry.\"\n\n\"Ah, here we are. RGW Eloise Regis Holdings, registered April 1885. I don't have any directors listed here, that's strange.\"\n\n\"Is there a registered address?\"\n\n\"Let me see, ah, yes. 68 Old Bond Street, NW\"\n\n\"Thank you\""
+      }
+    }
+  ]
+},
+  "96 WC": {
+      "address": "96 WC",
+      "text": "The offices of the Moore and Burgess minstrels turn out to be a singular room above a theatre shared with a dancing troupe, a music hall promoter, and a ventriloquist. \n\n\"Can I help you gentleman?\" asks a man in an ostentatious tail coat.\n\n\"I doubt it,\" answers a voice to our left. We look round, startled, but can only see a wooden duck looking back at us.\n\n\"Sorry, gentlemen, got to keep me hand in. I am Gilbert S Thomson, ventriloquist and entertainer extraordinaire. Are you, perchance, looking for an individual to astound and amaze guests at a dinner party, perhaps?\"\n\n\"No,\" replies Wiggins, \"we are looking for the Moore and Burgess minstrels.\"\n\n\"Oh,\" Gilbert looks a little crestfallen, \"Lawrence ain't here, he went to watch his troupe at St. James Hall.\"\n\n\"Told you so!\" calls the duck."
+  },
+  "3 SE": {
+      "address": "3 SE",
+      "text": "We speak to the doorman of the hotel.\n\n\"Yeah, bit of a bad business there, if you ask me. Fire in the dead of night when nobody was there to witness, or cause it? Perhaps it was done for the insurance. They certainly had the bankers round there quick enough. Excuse me.\" He says, and rushes back to his duties."
+  },
+  "4 SE": {
+      "address": "4 SE",
+      "text": "We spend some time looking round London Bridge Station for anyone who might be able to tell us about the fire on Tooley Street, but everyone is too busy to talk."
+  },
+  "87 SE": {
+      "address": "87 SE",
+      "text": "We enquire about the recent fire in the area and are directed further up the street, closer to the river."
+  },
+  "89 SE": {
+      "address": "89 SE",
+      "text": "The building in Bankside has been completely gutted by fire. It looks like it may once have been a storehouse of some description. A sign on what is left on a wall declares that the site has been purchased by RGW Eloise Regis Holdings.",
+      "updates": {
+          "circlesLetter": "E"
+      }
+  },
+  "4 EC": {
+      "address": "4 EC",
+      "conditions": [
+          {
+              "check": "requiresLetter",
+              "letter": "H",
+              "promptIfFalse": "If you have circled the letter H read the following passage.",
+              "onSuccess": {
+                  "text": "We knock at the door of the small, ramshackle building. After a few minutes we try again, but to no avail. Shrugging, Wiggins looks round, then bends down and starts to manipulate the lock. Within seconds the cheap lock clicks and the door opens. We are shocked when a voice calls out \"Go away, I have nothing left, you took it all already!\"\n\n\"We are not here to rob you, Mr. Asquith, merely to ask you a few questions. Mr Forbes was quite concerned about you, are you all right?\"\n\n\"No I am not all right, do I look all right? First those two thugs push their way in, threaten me and steal all my goods, then you lot barge in as if you own the place demanding answers from me!\"\n\n\"You were robbed? Have you not informed the police?\"\n\n\"Hah! You won't catch me dobbing up the rozzers. I ain't no snitch. Worth more'n me life to go to the rozzers. Now piss off. Don't come round here again. Unless, I suppose, you find those two goons who nabbed all my cigarettes and bring 'em back to me.\"\n\n\"You couldn't tell me who they were, could you?\"\n\n\"No, I couldn't. One big, one small, that's all I know. Now, shove it.\"",
+                  "updates": {
+                       "circlesLetter": "B"
+                  }
+              }
+          }
+      ]
+  },
+   "15 EC": {
+      "address": "15 EC",
+      "text": "We find ourselves at the wreckage of what was once a small bakery. All the excitement has died down with the extinguishing of the flames, and there is very little to see. We step into the husk of the blackened building, but cannot determine the source of the fire. Wiggins is briefly excited by finding a small pile of cigarette ends across the street, but we realise that there is nothing remarkable about them, and they may not have anything to do with the fire. Disappointed, we leave."
+  },
+  "49 EC": {
+      "address": "49 EC",
+       "conditions": [
+           {
+              "check": "requiresLetter",
+              "letter": "R",
+              "promptIfFalse": "If you have circled the letter R read the following passage.",
+              "onSuccess": {
+                   "text": "We knock at the ramshackle door of the dwelling which is swiftly opened by a short, balding man. \"You here for cigarettes? Tuppence for 20, take it or leave it, it isn't worth my time for anything less.\"\n\n\"No thank you,\" replies Wiggins, \"we just wanted to ask you about the recent fires, Mr. Rowlins\"\n\nHe narrows his eyes at us and asks \"Are you coppers?\"\n\n\"No we work for...\"\n\n\"Then either I can sell you a match or you can scram. Here, penny a piece.\" He produces the longest matches we have ever seen. \"Nah, thought not.\" He says to our retreating backs."
+              }
+           }
+       ]
+  },
+  "52 EC": {
+      "address": "52 EC",
+      "text": "\"Afternoon lads, what can I get you?\" Porky greets us with a more than usual amount of cordiality. \"Have you heard anything about the fires that have been happening recently?\"\n\nNah, mate\" Porky replies, \"nothing particular comes to mind. Matter of fact, it has been rather quiet of late. I mean, yeah, pickpockets, muggings, the usual, but nothing out of the ordinary, sorry.\"",
+      "followUpConditions": [
+          {
+            "check": "requiresLetter",
+            "letter": "B",
+            "promptIfFalse": "If you have circled the letter B read the following passage.",
+            "onSuccess": {
+              "text": "\"What about cigarettes, any idea who knocked over old Harry?\"\n\n\"Harry... Harry... Harry the puff? No, nobody would be stupid enough to take him on.\"\n\n\"He doesn't seem particularly intimidating.\"\n\n\"Oh, it isn't him that you would have to worry about, it is his clients! He provides half the crims around here with their daily puff. Half the price of the shops, and he don't clip or thin roll, neither. Now you mention that, I haven't seen him in here for a while. Oi, Isabel,\" Porky shouts over to a scrawny old woman sitting near the door. \n\n\"What?\" shouts Isabel.\n\n\"When did you last see Harry?\"\n\n\"What?\" shouts Isabel.\n\n\"Harry!\"\n\n\"What?\" shouts Isabel.\n\n\"Harry puff... Oh come here!\" He shouts gesturing. Isabel ambles over.\n\n\"When did you last see Harry the Puff?\"\n\n\"Is he here? I ain't had a decent smoke in over a week!\"\n\n\"No, when did you last see him?\"\n\n\"Oh, he was here a week past Tuesday. With the Rowney twins.\"\n\n\"The... oh, no, I didn't know steeple Jack was back in town. I thought he was in the tanty.\"\n\n\"Nah, he got back a month ago, but then got picked up the next day down Lambeth way, trying to pickpocket of all things.\" Porky pours her a drink and she shambles back to her seat by the door.\n\n\"That'll be a shilling, lads.\"\n\n\"A... fine, here you go\"\n\n\"Jack never was the brightest of sparks. With hands like those, you would think he would leave that lark to his brother. If I were you, lads, I would steer clear of him. Dangerous sort. Big, and dumb with it. They are gonna be banned from here if they did anything to Old Harry, though. Mind how you go.\"",
+              "updates": {
+                "circlesLetter": "R"
+              }
+              }
+          }
+      ]
+  },
+  "56 EC": {
+      "address": "56 EC",
+      "text": "We enter Forbes establishment and are immediately assailed by the warm smell of dried tobacco. A large figurine of a somewhat rotund man in native dress holding some rolled tobacco is prominently displayed. The shopkeeper who has evidently finished serving the customer he was with spots us eyeing up the figurine and comes over to us. \n\n\"I see you have spotted our pot-bellied New Guinean, a new addition to our shop. Can I recommend our No. 2 blend? Very sweet, very aromatic and a wonder to the...\"\n\n\"No, thank you,\" Wiggins interrupts swiftly, \"we were just wondering if you could possibly help identify these?\" he continues, handing over the samples Murray had kindly lent us.\n\n\"Oh.\" The man looks somewhat crestfallen to have been broken out of his sales pitch. \"Well, I can't say for sure, as these are pretty standard cheap pre-mades; they could have come from any tobacconists. While we all like to be proud of our product, a not insignificant amount of revenue comes from such examples as those. Most shops will sell dregs and old stock to street vendors who roll them, then sell them on individually to... clientele of a certain reputation, shall we say?\"\n\n\"And do you partake in this trade too? Who do you sell to?\"\n\n\"Old Harry normally drops in on a Friday afternoon and picks up whatever I have, but now you mention it, I haven't seen Harry in a few weeks.\"\n\n\"Harry...?\"\n\n\"Oh, em... Asbert? Amdridge? Asquith? Something like that, I think\"\n\n\"Thank you, kindly\"",
+      "updates": {
+          "circlesLetter": "H"
+      }
+  },
+  "88 EC": {
+      "address": "88 EC",
+      "text": "The doors of the Watt Street Mission are wide open and a fug of mixed smells greets us as we enter; bleach from the scrubbed floors, incense from Friday afternoon prayers, the lingering odour of the ever bubbling stew pot, sweat from huddled bodies, smoke from their daily habit, and an overwhelming smell of desperation. An elderly woman looks up at us from where she is preparing a meal in the largest pot we have ever seen. \n\n\"I'm sorry gentlemen, you will have to come back after 6 if you want any food.\"\n\n\"No, thank you, ma'am,\" replies Wiggins kindly, \"we aren't here to add to your good works, we just wondered whether you might have seen anything last night?\"\n\n\"Oh, the fire? Tragic that was. Terrible, terrible!\"\n\n\"Indeed, but did you notice anything or anyone unusual?\"\n\n\"The police asked me that, and I can't tell you any more than I did them. This place is always busy in the evenings. I make a good stew with what little we can gather for those less fortunate, and if I can gather those poor unfortunates by doing so and it brings them to hear the Lord's Word, then I am doing the best I can.\"\n\n\"You certainly are,\" says Wiggins, putting on his most charming smile, \"so nothing out of the ordinary occurred? Apart from the fire, I mean to say.\"\n\n\"No, I can't think of anything. I did ask a couple of gentlemen to move on, as they were trying to sell cigarettes to my boys. Filthy habit that too many of them waste good money on. If they have money to burn then they should donate it to the mission that feeds them, rather than buy cigarettes no matter how inexpensive.\"\n\n\"Do you often have to move such people on?\"\n\n\"No, not really.\"\n\n\"And do you have a description of the gentlemen?\"\n\n\"They were no gentlemen, I can assure you of that. But then, I didn't actually see them myself, just heard young Billy talking about them so I had Father O'Connell invite them in or move them on. He came back alone, so I presume they chose the latter.\"\n\n\"Thank you, ma'am.\""
+  }
+}

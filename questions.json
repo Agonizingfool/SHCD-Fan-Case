@@ -1,0 +1,39 @@
+{
+    "questions": [
+        {
+            "number": 1,
+            "id": "q1_orphanage_fire_series",
+            "question": "Was the fire at the Marylebone Orphanage part of the series of fires from recent weeks?"
+        },
+        {
+            "number": 2,
+            "id": "q2_other_crime",
+            "question": "What other crime is the arsonist intending to commit?"
+        },
+        {
+            "number": 3,
+            "id": "q3_corroborate_identity",
+            "question": "Who will be able to corroborate the arsonist's identity? (2 answers)"
+        },
+        {
+            "number": 4,
+            "id": "q4_why_burn_orphanage",
+            "question": "Why did he burn down the orphanage?"
+        },
+        {
+            "number": 5,
+            "id": "q5_who_set_london_fires",
+            "question": "Who set the various fires across London?"
+        },
+        {
+            "number": 6,
+            "id": "q6_who_paid_arsonist",
+            "question": "Who paid him to do this?"
+        },
+        {
+            "number": 7,
+            "id": "q7_why_paid_arsonist",
+            "question": "Why?"
+        }
+    ]
+}
